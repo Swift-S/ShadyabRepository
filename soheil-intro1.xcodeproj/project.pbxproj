@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33DFDF576283B5DFCE2A5A08 /* Pods_soheil_intro1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8139C50D6C6CCF5C652DE53 /* Pods_soheil_intro1.framework */; };
+		3B5A63A8E489AA903F0F8045 /* Pods_soheil_intro1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85260668223B1BB0AF1E8370 /* Pods_soheil_intro1Tests.framework */; };
+		4C9A57BEF5E56630DD1DB158 /* Pods_soheil_intro1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A4DCFC185DB0A8F8B81FDD /* Pods_soheil_intro1UITests.framework */; };
+		8B0DD50C1DFC101D009CB5FF /* IntroMenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DD50B1DFC101D009CB5FF /* IntroMenue.swift */; };
+		8B0DD5151DFC13BF009CB5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DD5131DFC13BF009CB5FF /* Main.storyboard */; };
 		8B57753B1DF4001900EB84F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57753A1DF4001900EB84F7 /* AppDelegate.swift */; };
 		8B57753D1DF4001900EB84F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57753C1DF4001900EB84F7 /* ViewController.swift */; };
-		8B5775401DF4001900EB84F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B57753E1DF4001900EB84F7 /* Main.storyboard */; };
 		8B5775431DF4001A00EB84F7 /* soheil_intro1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B5775411DF4001A00EB84F7 /* soheil_intro1.xcdatamodeld */; };
 		8B5775451DF4001A00EB84F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5775441DF4001A00EB84F7 /* Assets.xcassets */; };
 		8B5775481DF4001A00EB84F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5775461DF4001A00EB84F7 /* LaunchScreen.storyboard */; };
 		8B5775531DF4001A00EB84F7 /* soheil_intro1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5775521DF4001A00EB84F7 /* soheil_intro1Tests.swift */; };
 		8B57755E1DF4001A00EB84F7 /* soheil_intro1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57755D1DF4001A00EB84F7 /* soheil_intro1UITests.swift */; };
+		8BA6BD561DF7FA8C00330847 /* DroidNaskh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA6BD551DF7FA8C00330847 /* DroidNaskh.ttf */; };
+		8BA6BD571DF7FA8C00330847 /* DroidNaskh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA6BD551DF7FA8C00330847 /* DroidNaskh.ttf */; };
+		8BA6BD581DF7FA8C00330847 /* DroidNaskh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA6BD551DF7FA8C00330847 /* DroidNaskh.ttf */; };
+		8BEE32151DFD364F0035D8F6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE32141DFD364F0035D8F6 /* BaseViewController.swift */; };
+		8BF2CC801DFF35BF007E1D63 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2CC7F1DFF35BF007E1D63 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175F3A02CD57B6368A4E112C /* Pods-soheil-intro1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soheil-intro1.release.xcconfig"; path = "Pods/Target Support Files/Pods-soheil-intro1/Pods-soheil-intro1.release.xcconfig"; sourceTree = "<group>"; };
+		35A4DCFC185DB0A8F8B81FDD /* Pods_soheil_intro1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soheil_intro1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF46233CB451C3193A49203 /* Pods-soheil-intro1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soheil-intro1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-soheil-intro1UITests/Pods-soheil-intro1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5454C467EE60A87A785366BA /* Pods-soheil-intro1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soheil-intro1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soheil-intro1UITests/Pods-soheil-intro1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62B45674BBF92526E1844E13 /* Pods-soheil-intro1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soheil-intro1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soheil-intro1/Pods-soheil-intro1.debug.xcconfig"; sourceTree = "<group>"; };
+		85260668223B1BB0AF1E8370 /* Pods_soheil_intro1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soheil_intro1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0DD50B1DFC101D009CB5FF /* IntroMenue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroMenue.swift; path = ../IntroMenue.swift; sourceTree = "<group>"; };
+		8B0DD5141DFC13BF009CB5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Movies/۲/soheil-intro1/soheil-intro1/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		8B5775371DF4001900EB84F7 /* soheil-intro1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "soheil-intro1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B57753A1DF4001900EB84F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B57753C1DF4001900EB84F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B57753F1DF4001900EB84F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B5775421DF4001A00EB84F7 /* soheil_intro1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = soheil_intro1.xcdatamodel; sourceTree = "<group>"; };
 		8B5775441DF4001A00EB84F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5775471DF4001A00EB84F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +65,14 @@
 		8B5775591DF4001A00EB84F7 /* soheil-intro1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "soheil-intro1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B57755D1DF4001A00EB84F7 /* soheil_intro1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soheil_intro1UITests.swift; sourceTree = "<group>"; };
 		8B57755F1DF4001A00EB84F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA6BD551DF7FA8C00330847 /* DroidNaskh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DroidNaskh.ttf; path = "../../../Downloads/Telegram Desktop/DroidNaskh.ttf"; sourceTree = "<group>"; };
+		8BEE32141DFD364F0035D8F6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8BF2CC7D1DFF35BE007E1D63 /* soheil-intro1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "soheil-intro1-Bridging-Header.h"; sourceTree = "<group>"; };
+		8BF2CC7E1DFF35BF007E1D63 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8BF2CC7F1DFF35BF007E1D63 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A8139C50D6C6CCF5C652DE53 /* Pods_soheil_intro1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soheil_intro1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46706B7006D4A5B63EF9B90 /* Pods-soheil-intro1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soheil-intro1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-soheil-intro1Tests/Pods-soheil-intro1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D30F0D423523E1ECB7937DA0 /* Pods-soheil-intro1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soheil-intro1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soheil-intro1Tests/Pods-soheil-intro1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DFDF576283B5DFCE2A5A08 /* Pods_soheil_intro1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5A63A8E489AA903F0F8045 /* Pods_soheil_intro1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9A57BEF5E56630DD1DB158 /* Pods_soheil_intro1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +110,8 @@
 				8B5775511DF4001A00EB84F7 /* soheil-intro1Tests */,
 				8B57755C1DF4001A00EB84F7 /* soheil-intro1UITests */,
 				8B5775381DF4001900EB84F7 /* Products */,
+				9FF321369A827D8EF2A4610C /* Pods */,
+				F515EE6CC0A9F9710F68F612 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +130,13 @@
 			children = (
 				8B57753A1DF4001900EB84F7 /* AppDelegate.swift */,
 				8B57753C1DF4001900EB84F7 /* ViewController.swift */,
-				8B57753E1DF4001900EB84F7 /* Main.storyboard */,
+				8BEE32141DFD364F0035D8F6 /* BaseViewController.swift */,
+				8B0DD50B1DFC101D009CB5FF /* IntroMenue.swift */,
 				8B5775441DF4001A00EB84F7 /* Assets.xcassets */,
+				8BA6BD551DF7FA8C00330847 /* DroidNaskh.ttf */,
+				8B0DD5131DFC13BF009CB5FF /* Main.storyboard */,
 				8B5775461DF4001A00EB84F7 /* LaunchScreen.storyboard */,
+				8BF2CC7C1DFF353E007E1D63 /* Supporting Files */,
 				8B5775491DF4001A00EB84F7 /* Info.plist */,
 				8B5775411DF4001A00EB84F7 /* soheil_intro1.xcdatamodeld */,
 			);
@@ -128,6 +161,39 @@
 			path = "soheil-intro1UITests";
 			sourceTree = "<group>";
 		};
+		8BF2CC7C1DFF353E007E1D63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2CC7E1DFF35BF007E1D63 /* SWRevealViewController.h */,
+				8BF2CC7F1DFF35BF007E1D63 /* SWRevealViewController.m */,
+				8BF2CC7D1DFF35BE007E1D63 /* soheil-intro1-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FF321369A827D8EF2A4610C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62B45674BBF92526E1844E13 /* Pods-soheil-intro1.debug.xcconfig */,
+				175F3A02CD57B6368A4E112C /* Pods-soheil-intro1.release.xcconfig */,
+				D30F0D423523E1ECB7937DA0 /* Pods-soheil-intro1Tests.debug.xcconfig */,
+				B46706B7006D4A5B63EF9B90 /* Pods-soheil-intro1Tests.release.xcconfig */,
+				5454C467EE60A87A785366BA /* Pods-soheil-intro1UITests.debug.xcconfig */,
+				4BF46233CB451C3193A49203 /* Pods-soheil-intro1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F515EE6CC0A9F9710F68F612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8139C50D6C6CCF5C652DE53 /* Pods_soheil_intro1.framework */,
+				85260668223B1BB0AF1E8370 /* Pods_soheil_intro1Tests.framework */,
+				35A4DCFC185DB0A8F8B81FDD /* Pods_soheil_intro1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B5775621DF4001A00EB84F7 /* Build configuration list for PBXNativeTarget "soheil-intro1" */;
 			buildPhases = (
+				A0FC2E1935B0A9E8918E7C76 /* [CP] Check Pods Manifest.lock */,
 				8B5775331DF4001900EB84F7 /* Sources */,
 				8B5775341DF4001900EB84F7 /* Frameworks */,
 				8B5775351DF4001900EB84F7 /* Resources */,
+				A39C904E054FD0BDC802990C /* [CP] Embed Pods Frameworks */,
+				F469BAD20431F5B999FABA9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B5775651DF4001A00EB84F7 /* Build configuration list for PBXNativeTarget "soheil-intro1Tests" */;
 			buildPhases = (
+				EDB4572DA4AE3B9C77D80B3B /* [CP] Check Pods Manifest.lock */,
 				8B57754A1DF4001A00EB84F7 /* Sources */,
 				8B57754B1DF4001A00EB84F7 /* Frameworks */,
 				8B57754C1DF4001A00EB84F7 /* Resources */,
+				DF79B5D0737F646B253C82E6 /* [CP] Embed Pods Frameworks */,
+				7A357359C836A6341575D9EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B5775681DF4001A00EB84F7 /* Build configuration list for PBXNativeTarget "soheil-intro1UITests" */;
 			buildPhases = (
+				2B481DA1EAC12931E1E54E64 /* [CP] Check Pods Manifest.lock */,
 				8B5775551DF4001A00EB84F7 /* Sources */,
 				8B5775561DF4001A00EB84F7 /* Frameworks */,
 				8B5775571DF4001A00EB84F7 /* Resources */,
+				C04F0A382C60EB92DF30F4C8 /* [CP] Embed Pods Frameworks */,
+				49236080DA0C1A53C86C172B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +271,7 @@
 				TargetAttributes = {
 					8B5775361DF4001900EB84F7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NCU4JG2P77;
 					};
 					8B57754D1DF4001A00EB84F7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -233,8 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5775481DF4001A00EB84F7 /* LaunchScreen.storyboard in Resources */,
+				8BA6BD561DF7FA8C00330847 /* DroidNaskh.ttf in Resources */,
 				8B5775451DF4001A00EB84F7 /* Assets.xcassets in Resources */,
-				8B5775401DF4001900EB84F7 /* Main.storyboard in Resources */,
+				8B0DD5151DFC13BF009CB5FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA6BD571DF7FA8C00330847 /* DroidNaskh.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,19 +327,161 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA6BD581DF7FA8C00330847 /* DroidNaskh.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B481DA1EAC12931E1E54E64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49236080DA0C1A53C86C172B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-soheil-intro1UITests/Pods-soheil-intro1UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A357359C836A6341575D9EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-soheil-intro1Tests/Pods-soheil-intro1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FC2E1935B0A9E8918E7C76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A39C904E054FD0BDC802990C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-soheil-intro1/Pods-soheil-intro1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04F0A382C60EB92DF30F4C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-soheil-intro1UITests/Pods-soheil-intro1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF79B5D0737F646B253C82E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-soheil-intro1Tests/Pods-soheil-intro1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB4572DA4AE3B9C77D80B3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F469BAD20431F5B999FABA9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-soheil-intro1/Pods-soheil-intro1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B5775331DF4001900EB84F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BEE32151DFD364F0035D8F6 /* BaseViewController.swift in Sources */,
 				8B57753D1DF4001900EB84F7 /* ViewController.swift in Sources */,
+				8B0DD50C1DFC101D009CB5FF /* IntroMenue.swift in Sources */,
 				8B57753B1DF4001900EB84F7 /* AppDelegate.swift in Sources */,
 				8B5775431DF4001A00EB84F7 /* soheil_intro1.xcdatamodeld in Sources */,
+				8BF2CC801DFF35BF007E1D63 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +517,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B57753E1DF4001900EB84F7 /* Main.storyboard */ = {
+		8B0DD5131DFC13BF009CB5FF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8B57753F1DF4001900EB84F7 /* Base */,
+				8B0DD5141DFC13BF009CB5FF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -401,28 +621,42 @@
 		};
 		8B5775631DF4001A00EB84F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B45674BBF92526E1844E13 /* Pods-soheil-intro1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "soheil-intro1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "amirdl.soheil-intro1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "soheil-intro1/soheil-intro1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8B5775641DF4001A00EB84F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175F3A02CD57B6368A4E112C /* Pods-soheil-intro1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "soheil-intro1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "amirdl.soheil-intro1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "soheil-intro1/soheil-intro1-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		8B5775661DF4001A00EB84F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30F0D423523E1ECB7937DA0 /* Pods-soheil-intro1Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "soheil-intro1Tests/Info.plist";
@@ -435,6 +669,7 @@
 		};
 		8B5775671DF4001A00EB84F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46706B7006D4A5B63EF9B90 /* Pods-soheil-intro1Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "soheil-intro1Tests/Info.plist";
@@ -447,6 +682,7 @@
 		};
 		8B5775691DF4001A00EB84F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5454C467EE60A87A785366BA /* Pods-soheil-intro1UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "soheil-intro1UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +694,7 @@
 		};
 		8B57756A1DF4001A00EB84F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF46233CB451C3193A49203 /* Pods-soheil-intro1UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "soheil-intro1UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +723,7 @@
 				8B5775641DF4001A00EB84F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B5775651DF4001A00EB84F7 /* Build configuration list for PBXNativeTarget "soheil-intro1Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +732,7 @@
 				8B5775671DF4001A00EB84F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B5775681DF4001A00EB84F7 /* Build configuration list for PBXNativeTarget "soheil-intro1UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +741,7 @@
 				8B57756A1DF4001A00EB84F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
