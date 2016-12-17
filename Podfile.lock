@@ -1,0 +1,12 @@
+PODS:
+  - Scrollable (1.0.5)
+
+DEPENDENCIES:
+  - Scrollable (~> 1.0)
+
+SPEC CHECKSUMS:
+  Scrollable: 1be6d6b8b4fbc6aa98f5f44a24c1f88105ae35dd
+
+PODFILE CHECKSUM: 400ccb4751786d7b0d683cfb28fcb605c5f2a616
+
+COCOAPODS: 1.1.1

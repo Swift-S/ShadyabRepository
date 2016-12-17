@@ -1,0 +1,6 @@
+framework module Pods_soheil_intro1Tests {
+  umbrella header "Pods-soheil-intro1Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
