@@ -1,0 +1,20 @@
+PODS:
+  - Scrollable (1.0.5)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (2.4.0)
+
+DEPENDENCIES:
+  - Scrollable (~> 1.0)
+  - SDWebImage (~> 3.8)
+  - SwiftyJSON (~> 2.0)
+
+SPEC CHECKSUMS:
+  Scrollable: 1be6d6b8b4fbc6aa98f5f44a24c1f88105ae35dd
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: 96918c1bf505efa50c4f72957018dd3452090c9c
+
+PODFILE CHECKSUM: 19bfecdcb54d59870c96e445c63fe5b06b7bad51
+
+COCOAPODS: 1.1.1
