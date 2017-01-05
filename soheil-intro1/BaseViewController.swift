@@ -33,8 +33,8 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // I'm Here...
-        navigationController?.navigationBar.backgroundColor = UIColor(hue: 28/360, saturation: 100/100, brightness: 100/100, alpha: 1.0) /* #ff7700 */
         
+        navigationController?.navigationBar.backgroundColor = Colors.orange
         updateCounter = 1
         timer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: #selector(BaseViewController.updateTimer), userInfo: nil, repeats: true)
         
@@ -43,38 +43,38 @@ class BaseViewController: UIViewController {
         
         
         //TopImgJSON
-        let TopImgUrl1:NSURL? = NSURL(string: "http://soheil.tabaneshahr.com/assests/products/imgs/sliders/3.jpg")
+        let TopImgUrl1:NSURL? = NSURL(string: Strings.topImgUrl1)
         if let url = TopImgUrl1 {
             imgTop1.sd_setImageWithURL(url)
         }
-        let TopImgUrl2:NSURL? = NSURL(string: "http://soheil.tabaneshahr.com/assests/products/imgs/sliders/2.jpg")
+        let TopImgUrl2:NSURL? = NSURL(string: Strings.topImgUrl2)
         if let url = TopImgUrl2 {
             imgTop2.sd_setImageWithURL(url)
         }
-        let TopImgUrl3:NSURL? = NSURL(string: "http://soheil.tabaneshahr.com/assests/products/imgs/sliders/4.jpg")
+        let TopImgUrl3:NSURL? = NSURL(string: Strings.topImgUrl3)
         if let url = TopImgUrl3 {
             imgTop3.sd_setImageWithURL(url)
         }
-        let TopImgUrl4:NSURL? = NSURL(string: "http://soheil.tabaneshahr.com/assests/products/imgs/sliders/1.jpg")
+        let TopImgUrl4:NSURL? = NSURL(string: Strings.topImgUrl4)
         if let url = TopImgUrl4 {
             imgTop4.sd_setImageWithURL(url)
         }
         
         
         //DownImgJSON
-        let DownimageUrl1:NSURL? = NSURL(string: "http://soheil.tabaneshahr.com/assests/products/imgs/1479824023_chely-ice-cream.jpg")
+        let DownimageUrl1:NSURL? = NSURL(string: Strings.downimageUrl1)
         if let url = DownimageUrl1 {
             imgDown1.sd_setImageWithURL(url)
         }
-        let DownimageUrl2:NSURL? = NSURL(string: "http://soheil.tabaneshahr.com/assests/products/imgs/1479824064_cake.jpg")
+        let DownimageUrl2:NSURL? = NSURL(string: Strings.downimageUrl2)
         if let url = DownimageUrl2 {
             imgDown2.sd_setImageWithURL(url)
         }
-        let DownimageUrl3:NSURL? = NSURL(string: "http://soheil.tabaneshahr.com/assests/products/imgs/1482059029_kabab.jpg")
+        let DownimageUrl3:NSURL? = NSURL(string: Strings.downimageUrl3)
         if let url = DownimageUrl3 {
             imgDown3.sd_setImageWithURL(url)
         }
-        let DownimageUrl4:NSURL? = NSURL(string: "http://soheil.tabaneshahr.com/assests/products/imgs/1482059542_kebab.jpg")
+        let DownimageUrl4:NSURL? = NSURL(string: Strings.downimageUrl4)
         if let url = DownimageUrl4 {
             imgDown4.sd_setImageWithURL(url)
         }

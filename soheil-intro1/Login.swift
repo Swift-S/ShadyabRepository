@@ -16,7 +16,7 @@ class Login: UIViewController {
     @IBOutlet weak var Pass: UITextField!
     @IBOutlet weak var loginTapped: UIButton!
     
-    let baseUrl = NSURL(string: "http://www.soheil.tabaneshahr.com/admin/Android/login")!
+    let baseUrl = NSURL(string: "\(Strings.URL_BASE)\(Strings.URL_LOGIN)")!
     typealias JSONStandar = [String: AnyObject]
 
     

@@ -49,6 +49,6 @@ class Optional: AnyObject {
         _phone = phone
         _pass = pass
         _img = img
-        _loginURL = "\(URL_BASE)\(URL_LOGIN)"
+        _loginURL = "\(Strings.URL_BASE)\(Strings.URL_LOGIN)"
     }
 }

@@ -19,6 +19,8 @@
 		8B5537291E1EB144005CD029 /* Main.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5537281E1EB144005CD029 /* Main.Storyboard */; };
 		8B55372A1E1EB144005CD029 /* Main.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5537281E1EB144005CD029 /* Main.Storyboard */; };
 		8B55372B1E1EB144005CD029 /* Main.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5537281E1EB144005CD029 /* Main.Storyboard */; };
+		8B55372D1E1ED3BF005CD029 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B55372C1E1ED3BF005CD029 /* Colors.swift */; };
+		8B55372F1E1ED74E005CD029 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B55372E1E1ED74E005CD029 /* Strings.swift */; };
 		8B57753B1DF4001900EB84F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57753A1DF4001900EB84F7 /* AppDelegate.swift */; };
 		8B57753D1DF4001900EB84F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57753C1DF4001900EB84F7 /* ViewController.swift */; };
 		8B5775431DF4001A00EB84F7 /* soheil_intro1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B5775411DF4001A00EB84F7 /* soheil_intro1.xcdatamodeld */; };
@@ -33,7 +35,6 @@
 		8BF2CC801DFF35BF007E1D63 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2CC7F1DFF35BF007E1D63 /* SWRevealViewController.m */; };
 		8BF3741E1E17091900EF84F6 /* Etelaieha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3741D1E17091900EF84F6 /* Etelaieha.swift */; };
 		8BFA6F121E1A4CBA00A0AEC1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA6F111E1A4CBA00A0AEC1 /* Login.swift */; };
-		8BFA6F141E1A53EC00A0AEC1 /* Constent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA6F131E1A53EC00A0AEC1 /* Constent.swift */; };
 		8BFA6F161E1A543400A0AEC1 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA6F151E1A543400A0AEC1 /* Optional.swift */; };
 		8BFA6F181E1A646C00A0AEC1 /* JSONParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA6F171E1A646C00A0AEC1 /* JSONParserTest.swift */; };
 		8BFB87A31E08206000D85489 /* RightMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFB87A21E08206000D85489 /* RightMenu.swift */; };
@@ -68,6 +69,8 @@
 		8B10FB971E142BF6008374F2 /* NewRightMenu2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRightMenu2.swift; sourceTree = "<group>"; };
 		8B5537241E1EB0CD005CD029 /* DroidNaskh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidNaskh.ttf; sourceTree = "<group>"; };
 		8B5537281E1EB144005CD029 /* Main.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.Storyboard; sourceTree = "<group>"; };
+		8B55372C1E1ED3BF005CD029 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8B55372E1E1ED74E005CD029 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		8B5775371DF4001900EB84F7 /* soheil-intro1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "soheil-intro1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B57753A1DF4001900EB84F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B57753C1DF4001900EB84F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +93,6 @@
 		8BF2CC7F1DFF35BF007E1D63 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8BF3741D1E17091900EF84F6 /* Etelaieha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Etelaieha.swift; sourceTree = "<group>"; };
 		8BFA6F111E1A4CBA00A0AEC1 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		8BFA6F131E1A53EC00A0AEC1 /* Constent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constent.swift; sourceTree = "<group>"; };
 		8BFA6F151E1A543400A0AEC1 /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		8BFA6F171E1A646C00A0AEC1 /* JSONParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParserTest.swift; sourceTree = "<group>"; };
 		8BFB87A21E08206000D85489 /* RightMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenu.swift; sourceTree = "<group>"; };
@@ -172,8 +174,9 @@
 				8BA2A1081E105B30002E8A5E /* NewRightMenu.swift */,
 				8BFA6F111E1A4CBA00A0AEC1 /* Login.swift */,
 				8BFA6F151E1A543400A0AEC1 /* Optional.swift */,
-				8BFA6F131E1A53EC00A0AEC1 /* Constent.swift */,
 				8BFA6F171E1A646C00A0AEC1 /* JSONParserTest.swift */,
+				8B55372C1E1ED3BF005CD029 /* Colors.swift */,
+				8B55372E1E1ED74E005CD029 /* Strings.swift */,
 				8B5537281E1EB144005CD029 /* Main.Storyboard */,
 				8B5775441DF4001A00EB84F7 /* Assets.xcassets */,
 				8B10FB991E144FE2008374F2 /* new left menu */,
@@ -522,12 +525,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8B92001E0D833300F8F9E1 /* DasteBandi.swift in Sources */,
+				8B55372D1E1ED3BF005CD029 /* Colors.swift in Sources */,
 				8BEE32151DFD364F0035D8F6 /* BaseViewController.swift in Sources */,
 				8B10FB961E142B31008374F2 /* CustomCell.swift in Sources */,
 				8BA2A1091E105B30002E8A5E /* NewRightMenu.swift in Sources */,
+				8B55372F1E1ED74E005CD029 /* Strings.swift in Sources */,
 				8BF3741E1E17091900EF84F6 /* Etelaieha.swift in Sources */,
 				8B57753D1DF4001900EB84F7 /* ViewController.swift in Sources */,
-				8BFA6F141E1A53EC00A0AEC1 /* Constent.swift in Sources */,
 				8B10FB981E142BF6008374F2 /* NewRightMenu2.swift in Sources */,
 				8BFA6F121E1A4CBA00A0AEC1 /* Login.swift in Sources */,
 				8B8B91C11E0C0A5100F8F9E1 /* testAPI.swift in Sources */,

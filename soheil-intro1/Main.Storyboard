@@ -1191,6 +1191,7 @@
                             <constraint firstItem="oG2-JX-Z6d" firstAttribute="centerX" secondItem="Ji9-wX-uyM" secondAttribute="centerX" id="ykG-Qv-1fT"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="PZJ-LM-RPv"/>
                     <connections>
                         <outlet property="Pass" destination="QSZ-QR-WTt" id="qQe-lH-P6Q"/>
                         <outlet property="User" destination="oG2-JX-Z6d" id="2xe-1v-QQh"/>
