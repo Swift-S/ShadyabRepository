@@ -34,7 +34,7 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         // I'm Here...
         
-        navigationController?.navigationBar.backgroundColor = Colors.orange
+//        navigationController?.navigationBar.backgroundColor = Colors.orange
         updateCounter = 1
         timer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: #selector(BaseViewController.updateTimer), userInfo: nil, repeats: true)
         
