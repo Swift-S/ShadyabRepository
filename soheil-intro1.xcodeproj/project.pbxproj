@@ -10,6 +10,10 @@
 		33DFDF576283B5DFCE2A5A08 /* Pods_soheil_intro1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8139C50D6C6CCF5C652DE53 /* Pods_soheil_intro1.framework */; };
 		3B5A63A8E489AA903F0F8045 /* Pods_soheil_intro1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85260668223B1BB0AF1E8370 /* Pods_soheil_intro1Tests.framework */; };
 		4C9A57BEF5E56630DD1DB158 /* Pods_soheil_intro1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A4DCFC185DB0A8F8B81FDD /* Pods_soheil_intro1UITests.framework */; };
+		8B0BF2731E2D0684004CA6A6 /* Pishghaza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BF2721E2D0684004CA6A6 /* Pishghaza.swift */; };
+		8B0BF2751E2D06AE004CA6A6 /* Kababha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BF2741E2D06AE004CA6A6 /* Kababha.swift */; };
+		8B0BF2771E2D06C3004CA6A6 /* Noshidaniha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BF2761E2D06C3004CA6A6 /* Noshidaniha.swift */; };
+		8B0BF2791E2D06CF004CA6A6 /* Deser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BF2781E2D06CF004CA6A6 /* Deser.swift */; };
 		8B0DD50C1DFC101D009CB5FF /* IntroMenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DD50B1DFC101D009CB5FF /* IntroMenue.swift */; };
 		8B10FB961E142B31008374F2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10FB951E142B31008374F2 /* CustomCell.swift */; };
 		8B10FB981E142BF6008374F2 /* NewRightMenu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10FB971E142BF6008374F2 /* NewRightMenu2.swift */; };
@@ -64,6 +68,10 @@
 		5454C467EE60A87A785366BA /* Pods-soheil-intro1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soheil-intro1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soheil-intro1UITests/Pods-soheil-intro1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		62B45674BBF92526E1844E13 /* Pods-soheil-intro1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-soheil-intro1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-soheil-intro1/Pods-soheil-intro1.debug.xcconfig"; sourceTree = "<group>"; };
 		85260668223B1BB0AF1E8370 /* Pods_soheil_intro1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_soheil_intro1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0BF2721E2D0684004CA6A6 /* Pishghaza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pishghaza.swift; sourceTree = "<group>"; };
+		8B0BF2741E2D06AE004CA6A6 /* Kababha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kababha.swift; sourceTree = "<group>"; };
+		8B0BF2761E2D06C3004CA6A6 /* Noshidaniha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Noshidaniha.swift; sourceTree = "<group>"; };
+		8B0BF2781E2D06CF004CA6A6 /* Deser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deser.swift; sourceTree = "<group>"; };
 		8B0DD50B1DFC101D009CB5FF /* IntroMenue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroMenue.swift; path = ../IntroMenue.swift; sourceTree = "<group>"; };
 		8B10FB951E142B31008374F2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		8B10FB971E142BF6008374F2 /* NewRightMenu2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRightMenu2.swift; sourceTree = "<group>"; };
@@ -177,6 +185,10 @@
 				8BFA6F171E1A646C00A0AEC1 /* JSONParserTest.swift */,
 				8B55372C1E1ED3BF005CD029 /* Colors.swift */,
 				8B55372E1E1ED74E005CD029 /* Strings.swift */,
+				8B0BF2721E2D0684004CA6A6 /* Pishghaza.swift */,
+				8B0BF2741E2D06AE004CA6A6 /* Kababha.swift */,
+				8B0BF2761E2D06C3004CA6A6 /* Noshidaniha.swift */,
+				8B0BF2781E2D06CF004CA6A6 /* Deser.swift */,
 				8B5537281E1EB144005CD029 /* Main.Storyboard */,
 				8B5775441DF4001A00EB84F7 /* Assets.xcassets */,
 				8B10FB991E144FE2008374F2 /* new left menu */,
@@ -532,14 +544,18 @@
 				8B55372F1E1ED74E005CD029 /* Strings.swift in Sources */,
 				8BF3741E1E17091900EF84F6 /* Etelaieha.swift in Sources */,
 				8B57753D1DF4001900EB84F7 /* ViewController.swift in Sources */,
+				8B0BF2771E2D06C3004CA6A6 /* Noshidaniha.swift in Sources */,
 				8B10FB981E142BF6008374F2 /* NewRightMenu2.swift in Sources */,
 				8BFA6F121E1A4CBA00A0AEC1 /* Login.swift in Sources */,
+				8B0BF2751E2D06AE004CA6A6 /* Kababha.swift in Sources */,
 				8B8B91C11E0C0A5100F8F9E1 /* testAPI.swift in Sources */,
 				8B0DD50C1DFC101D009CB5FF /* IntroMenue.swift in Sources */,
 				8BFA6F181E1A646C00A0AEC1 /* JSONParserTest.swift in Sources */,
 				8B57753B1DF4001900EB84F7 /* AppDelegate.swift in Sources */,
+				8B0BF2731E2D0684004CA6A6 /* Pishghaza.swift in Sources */,
 				8B5775431DF4001A00EB84F7 /* soheil_intro1.xcdatamodeld in Sources */,
 				8BFB87A31E08206000D85489 /* RightMenu.swift in Sources */,
+				8B0BF2791E2D06CF004CA6A6 /* Deser.swift in Sources */,
 				8BF2CC801DFF35BF007E1D63 /* SWRevealViewController.m in Sources */,
 				8BFA6F161E1A543400A0AEC1 /* Optional.swift in Sources */,
 			);

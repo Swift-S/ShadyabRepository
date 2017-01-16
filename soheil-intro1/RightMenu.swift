@@ -11,6 +11,8 @@ import Scrollable
 
 class RightMenu: UIViewController {
     @IBOutlet weak var MenuScroll: UIScrollView!
+    @IBOutlet weak var moveToDastebandi: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
