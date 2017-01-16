@@ -9,7 +9,7 @@ target 'soheil-intro1' do
 pod 'Scrollable', '~> 1.0'
 pod 'SwiftyJSON', '~>2.0'
 pod 'SDWebImage', '~>3.8'
-pod 'Alamofire', '~>2.0'
+pod 'Alamofire', '~>3.0'
   target 'soheil-intro1Tests' do
     inherit! :search_paths
     # Pods for testing
