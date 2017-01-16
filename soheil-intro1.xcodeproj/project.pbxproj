@@ -34,6 +34,7 @@
 		8B57755E1DF4001A00EB84F7 /* soheil_intro1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B57755D1DF4001A00EB84F7 /* soheil_intro1UITests.swift */; };
 		8B8B91C11E0C0A5100F8F9E1 /* testAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8B91C01E0C0A5100F8F9E1 /* testAPI.swift */; };
 		8B8B92001E0D833300F8F9E1 /* DasteBandi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8B91FF1E0D833300F8F9E1 /* DasteBandi.swift */; };
+		8B8E75A21E2D5B230069B8F9 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E75A11E2D5B230069B8F9 /* Alamofire.swift */; };
 		8BA2A1091E105B30002E8A5E /* NewRightMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2A1081E105B30002E8A5E /* NewRightMenu.swift */; };
 		8BEE32151DFD364F0035D8F6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE32141DFD364F0035D8F6 /* BaseViewController.swift */; };
 		8BF2CC801DFF35BF007E1D63 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2CC7F1DFF35BF007E1D63 /* SWRevealViewController.m */; };
@@ -94,6 +95,7 @@
 		8B57755F1DF4001A00EB84F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B8B91C01E0C0A5100F8F9E1 /* testAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testAPI.swift; sourceTree = "<group>"; };
 		8B8B91FF1E0D833300F8F9E1 /* DasteBandi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DasteBandi.swift; sourceTree = "<group>"; };
+		8B8E75A11E2D5B230069B8F9 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		8BA2A1081E105B30002E8A5E /* NewRightMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRightMenu.swift; sourceTree = "<group>"; };
 		8BEE32141DFD364F0035D8F6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		8BF2CC7D1DFF35BE007E1D63 /* soheil-intro1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "soheil-intro1-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				8B0BF2741E2D06AE004CA6A6 /* Kababha.swift */,
 				8B0BF2761E2D06C3004CA6A6 /* Noshidaniha.swift */,
 				8B0BF2781E2D06CF004CA6A6 /* Deser.swift */,
+				8B8E75A11E2D5B230069B8F9 /* Alamofire.swift */,
 				8B5537281E1EB144005CD029 /* Main.Storyboard */,
 				8B5775441DF4001A00EB84F7 /* Assets.xcassets */,
 				8B10FB991E144FE2008374F2 /* new left menu */,
@@ -536,6 +539,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8E75A21E2D5B230069B8F9 /* Alamofire.swift in Sources */,
 				8B8B92001E0D833300F8F9E1 /* DasteBandi.swift in Sources */,
 				8B55372D1E1ED3BF005CD029 /* Colors.swift in Sources */,
 				8BEE32151DFD364F0035D8F6 /* BaseViewController.swift in Sources */,

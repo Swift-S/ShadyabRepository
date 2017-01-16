@@ -31,11 +31,11 @@ class Login: UIViewController {
     
     
     func login(user: String, pass: String) {
-        Alamofire.request(.POST, baseUrl, parameters: ["EMAIL": user, "PASS": pass]).authenticate(user: User.text!, password: Pass.text!)
-            .responseJSON(completionHandler: {
-            response in
-                self.parseData(response.data!)
-        })
+//        Alamofire.request(.POST, baseUrl, parameters: ["EMAIL": user, "PASS": pass]).authenticate(user: User.text!, password: Pass.text!)
+//            .responseJSON(completionHandler: {
+//            response in
+//                self.parseData(response.data!)
+//        })
     }
     
     func parseData(JSONData: NSData) {

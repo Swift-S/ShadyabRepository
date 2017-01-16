@@ -1052,7 +1052,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BXc-R9-hkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2743" y="1786"/>
+            <point key="canvasLocation" x="2716" y="2002"/>
         </scene>
         <!--Pishghaza-->
         <scene sceneID="Qfx-63-iDI">
@@ -1071,7 +1071,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S6H-ez-uKO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13" y="1786"/>
+            <point key="canvasLocation" x="-40" y="2002"/>
         </scene>
         <!--Deser-->
         <scene sceneID="Pf9-SK-UuI">
@@ -1086,11 +1086,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sqj-6W-IXB"/>
+                    <navigationItem key="navigationItem" id="PgT-Vr-6oD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOs-dx-s7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4177" y="1786"/>
+            <point key="canvasLocation" x="4150" y="2002"/>
         </scene>
         <!--Kababha-->
         <scene sceneID="tAU-GH-3Yh">
@@ -1109,7 +1109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vYE-qG-8UU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1358" y="1786"/>
+            <point key="canvasLocation" x="1331" y="2002"/>
         </scene>
         <!--Daste Bandi-->
         <scene sceneID="ass-k8-b2d">
