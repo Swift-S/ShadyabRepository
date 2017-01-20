@@ -44,12 +44,12 @@ class Login: UIViewController {
             if let pass = readableJSON!["pass"] as? JSONStandar{
                 if let response = pass["response"] {
                     for i in 0..<response.count {
-                        let respons = response[i]
-                        let phone = respons["phone"] as! String
-                        Phone.append(phone)
+//                        let respons = response[i]
+//                        let phone = respons["phone"] as! String
+//                        Phone.append(phone)
                         print(pass)
                         print(response)
-                        print(phone)
+//                        print(phone)
                     }
                 }
             }
