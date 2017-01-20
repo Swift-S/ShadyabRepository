@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import Scrollable
 
 class Kababha: UIViewController {
+    @IBOutlet weak var scrollView: UIScrollView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        Scrollable.createContentView(scrollView)
     }
 
     override func didReceiveMemoryWarning() {
