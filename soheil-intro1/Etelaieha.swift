@@ -9,13 +9,13 @@
 import UIKit
 
 class Etelaieha: UIViewController {
-    @IBOutlet weak var asd: UIBarButtonItem!
+    @IBOutlet weak var bazgasht: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-    @IBAction func BackBarButtn(sender: AnyObject) {
+    @IBAction func bazgasht(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
 }

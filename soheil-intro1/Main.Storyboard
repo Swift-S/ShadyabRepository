@@ -54,6 +54,12 @@
             <string>DroidArabicNaskh</string>
             <string>DroidArabicNaskh</string>
             <string>DroidArabicNaskh</string>
+            <string>DroidArabicNaskh</string>
+            <string>DroidArabicNaskh</string>
+            <string>DroidArabicNaskh</string>
+            <string>DroidArabicNaskh</string>
+            <string>DroidArabicNaskh</string>
+            <string>DroidArabicNaskh</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -76,7 +82,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KQc-Yt-KQo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4074" y="461"/>
+            <point key="canvasLocation" x="-2946" y="461"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="gDD-Ra-Wws">
@@ -101,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aOH-LE-s2D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4813" y="-319"/>
+            <point key="canvasLocation" x="-3685" y="-319"/>
         </scene>
         <!--Right Menu-->
         <scene sceneID="Nri-fl-DFv">
@@ -354,7 +360,9 @@
                                             <constraint firstAttribute="width" constant="448" id="Kjz-78-rzY"/>
                                             <constraint firstAttribute="height" constant="35" id="eIz-yN-CRt"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="ap5-Am-cQj" kind="show" id="rFO-FL-dR3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4n-Ps-daQ">
                                         <rect key="frame" x="75" y="17" width="448" height="35"/>
@@ -363,9 +371,7 @@
                                             <constraint firstAttribute="height" constant="35" id="Fdy-Oh-2NS"/>
                                         </constraints>
                                         <connections>
-                                            <segue destination="WUH-gm-Jeg" kind="show" id="wvF-fi-iNy">
-                                                <nil key="action"/>
-                                            </segue>
+                                            <segue destination="mzf-Di-nGq" kind="show" id="PhM-WH-9gg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iA-2G-U0p">
@@ -616,7 +622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vvl-jG-SlU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4098" y="-977"/>
+            <point key="canvasLocation" x="-2970" y="-977"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PCl-NJ-hIc">
@@ -681,7 +687,7 @@
                                             <constraint firstAttribute="height" constant="29" id="ipp-wl-L2V"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    کباب چوبی مخلوط" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zv-KG-LLu">
@@ -691,7 +697,7 @@
                                             <constraint firstAttribute="width" constant="550" id="lfj-Vd-KUr"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    کباب بختیاری دو نفره" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9e-8c-8HK">
@@ -701,7 +707,7 @@
                                             <constraint firstAttribute="height" constant="33" id="mFf-3G-y2T"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -848,7 +854,7 @@
                                     <constraint firstAttribute="height" constant="29" id="lIE-gp-k2E"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1480419901_1" translatesAutoresizingMaskIntoConstraints="NO" id="OqU-zB-wki">
@@ -866,7 +872,7 @@
                                     <constraint firstAttribute="height" constant="29" id="Tuz-Y2-JQq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1161,6 +1167,13 @@
                                             <constraint firstAttribute="width" constant="1280" id="upf-10-3qe"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    استیک با سس سیر و خامه " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtG-pQ-opQ">
+                                        <rect key="frame" x="0.0" y="525" width="1280" height="32.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u2o-lG-y7S">
                                         <rect key="frame" x="0.0" y="562" width="1280" height="160"/>
                                         <constraints>
@@ -1168,6 +1181,13 @@
                                             <constraint firstAttribute="width" constant="1280" id="M9b-Ht-CJh"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    استیک با سس سیر و خامه " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZK-cY-VSV">
+                                        <rect key="frame" x="0.0" y="693" width="1280" height="32.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IpC-cS-Z00">
                                         <rect key="frame" x="0.0" y="730" width="1280" height="160"/>
                                         <constraints>
@@ -1175,6 +1195,13 @@
                                             <constraint firstAttribute="width" constant="1280" id="VCe-GZ-flW"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    کباب چوبی مرغ" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8X-WM-P2R">
+                                        <rect key="frame" x="0.0" y="861" width="1280" height="33"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sBF-5m-fwV">
                                         <rect key="frame" x="0.0" y="898" width="1280" height="160"/>
                                         <constraints>
@@ -1264,6 +1291,13 @@
                                             <constraint firstItem="jx2-hg-sFh" firstAttribute="top" secondItem="nTq-iA-WVv" secondAttribute="top" id="yso-7z-7wc"/>
                                         </constraints>
                                     </scrollView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    کباب چوبی گوشت کباب شده" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b67-uO-lxn">
+                                        <rect key="frame" x="0.0" y="1029" width="1280" height="33"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Y8q-IV-sHJ" secondAttribute="trailing" id="2hj-97-Rwa"/>
@@ -1272,13 +1306,20 @@
                                     <constraint firstItem="u2o-lG-y7S" firstAttribute="top" secondItem="HSU-MI-PVw" secondAttribute="bottom" constant="8" id="4SM-zg-V02"/>
                                     <constraint firstItem="zXh-rw-pxJ" firstAttribute="top" secondItem="88V-XI-fzv" secondAttribute="bottom" id="4sX-Vu-CHl"/>
                                     <constraint firstItem="Y8q-IV-sHJ" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="59d-gL-pVu"/>
+                                    <constraint firstAttribute="trailing" secondItem="l8X-WM-P2R" secondAttribute="trailing" id="9Ky-y4-ojz"/>
                                     <constraint firstItem="HSU-MI-PVw" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="Af7-4O-Ykp"/>
+                                    <constraint firstAttribute="trailing" secondItem="tZK-cY-VSV" secondAttribute="trailing" id="Arv-UK-ZlJ"/>
                                     <constraint firstItem="nTq-iA-WVv" firstAttribute="top" secondItem="VOB-h2-gI3" secondAttribute="top" constant="-65" id="F0q-d2-QQr"/>
+                                    <constraint firstItem="NtG-pQ-opQ" firstAttribute="top" secondItem="zXh-rw-pxJ" secondAttribute="bottom" constant="139" id="GNI-ey-hlh"/>
                                     <constraint firstItem="IpC-cS-Z00" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="IDl-5m-7T7"/>
+                                    <constraint firstItem="l8X-WM-P2R" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="Kw8-AL-xoo"/>
                                     <constraint firstAttribute="trailing" secondItem="Y8q-IV-sHJ" secondAttribute="trailing" id="Kwr-QC-3sG"/>
+                                    <constraint firstItem="tZK-cY-VSV" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="OSM-oa-YOv"/>
                                     <constraint firstAttribute="trailing" secondItem="nTq-iA-WVv" secondAttribute="trailing" id="PKJ-D7-5bM"/>
                                     <constraint firstAttribute="trailing" secondItem="sBF-5m-fwV" secondAttribute="trailing" id="QQf-kk-Ux2"/>
                                     <constraint firstItem="88V-XI-fzv" firstAttribute="top" secondItem="Y8q-IV-sHJ" secondAttribute="bottom" constant="2" id="QTO-Cp-Vpq"/>
+                                    <constraint firstItem="b67-uO-lxn" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="SQ0-01-sdq"/>
+                                    <constraint firstAttribute="trailing" secondItem="b67-uO-lxn" secondAttribute="trailing" id="Uno-w8-E9r"/>
                                     <constraint firstItem="88V-XI-fzv" firstAttribute="leading" secondItem="zXh-rw-pxJ" secondAttribute="leading" id="Xyd-aZ-XvX"/>
                                     <constraint firstItem="zXh-rw-pxJ" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="Y9O-2I-gpv"/>
                                     <constraint firstAttribute="trailing" secondItem="zXh-rw-pxJ" secondAttribute="trailing" id="YBq-GS-W2o"/>
@@ -1286,14 +1327,19 @@
                                     <constraint firstAttribute="trailing" secondItem="zXh-rw-pxJ" secondAttribute="trailing" id="YSW-xt-NqW"/>
                                     <constraint firstItem="sBF-5m-fwV" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="YwK-bd-qhx"/>
                                     <constraint firstItem="88V-XI-fzv" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="ZQE-W1-ffS"/>
+                                    <constraint firstItem="tZK-cY-VSV" firstAttribute="top" secondItem="NtG-pQ-opQ" secondAttribute="bottom" constant="135.5" id="af7-8p-0Vf"/>
                                     <constraint firstAttribute="trailing" secondItem="88V-XI-fzv" secondAttribute="trailing" id="b2q-dQ-cvd"/>
+                                    <constraint firstItem="b67-uO-lxn" firstAttribute="top" secondItem="l8X-WM-P2R" secondAttribute="bottom" constant="135.5" id="c10-ty-sfT"/>
                                     <constraint firstAttribute="bottom" secondItem="zXh-rw-pxJ" secondAttribute="bottom" constant="672" id="cTf-kk-K9J"/>
                                     <constraint firstAttribute="trailing" secondItem="IpC-cS-Z00" secondAttribute="trailing" id="es1-ec-gCG"/>
                                     <constraint firstItem="sBF-5m-fwV" firstAttribute="top" secondItem="IpC-cS-Z00" secondAttribute="bottom" constant="8" id="h04-hw-SUh"/>
                                     <constraint firstAttribute="trailing" secondItem="HSU-MI-PVw" secondAttribute="trailing" id="hdI-h5-mNS"/>
+                                    <constraint firstAttribute="trailing" secondItem="NtG-pQ-opQ" secondAttribute="trailing" id="hud-Jo-VYE"/>
                                     <constraint firstItem="nTq-iA-WVv" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="mAh-lh-qxs"/>
                                     <constraint firstAttribute="trailing" secondItem="u2o-lG-y7S" secondAttribute="trailing" id="nI9-bI-4eB"/>
                                     <constraint firstItem="88V-XI-fzv" firstAttribute="top" secondItem="Y8q-IV-sHJ" secondAttribute="bottom" constant="2" id="ngw-Ax-jUR"/>
+                                    <constraint firstItem="NtG-pQ-opQ" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="oV1-f2-uq7"/>
+                                    <constraint firstItem="l8X-WM-P2R" firstAttribute="top" secondItem="tZK-cY-VSV" secondAttribute="bottom" constant="135.5" id="pjE-io-QrU"/>
                                     <constraint firstItem="u2o-lG-y7S" firstAttribute="leading" secondItem="VOB-h2-gI3" secondAttribute="leading" id="qBg-3X-7tB"/>
                                     <constraint firstItem="Y8q-IV-sHJ" firstAttribute="top" secondItem="nTq-iA-WVv" secondAttribute="bottom" constant="1" id="tOe-QS-8G5"/>
                                     <constraint firstAttribute="trailing" secondItem="nTq-iA-WVv" secondAttribute="trailing" id="xCG-lU-MTu"/>
@@ -1385,7 +1431,7 @@
                                         <rect key="frame" x="25" y="479" width="550" height="29"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1479822895_coca" translatesAutoresizingMaskIntoConstraints="NO" id="7dN-pL-uWZ">
@@ -1399,7 +1445,7 @@
                                         <rect key="frame" x="25" y="737" width="550" height="29"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1479822852_7up" translatesAutoresizingMaskIntoConstraints="NO" id="HK4-7u-cdV">
@@ -1413,7 +1459,7 @@
                                         <rect key="frame" x="25" y="995" width="550" height="29"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1494,7 +1540,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    بستنی وانیلی با خرده های شکلات" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ax6-ai-dQf">
                                         <rect key="frame" x="25" y="225" width="550" height="33"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1482050432_mintchocolatechipcold " translatesAutoresizingMaskIntoConstraints="NO" id="Vbj-t8-Ge9">
@@ -1507,7 +1553,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    بستنی وانیلی با خرده های شکلات پسته و نعناع" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reH-4v-kHk">
                                         <rect key="frame" x="25" y="483" width="550" height="33"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1482050015_StoneCreamery" translatesAutoresizingMaskIntoConstraints="NO" id="JGZ-Sr-Iaj">
@@ -1520,7 +1566,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    کاپ کیک وانیلی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cS-vD-Vhj">
                                         <rect key="frame" x="25" y="741" width="550" height="33"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1482049750_ColdStoneCreamery" translatesAutoresizingMaskIntoConstraints="NO" id="koK-hp-AUm">
@@ -1533,7 +1579,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    کاپ کیک سرد وانیلی" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APh-C1-b6a">
                                         <rect key="frame" x="25" y="999" width="550" height="33"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1616,7 +1662,7 @@
                                         <rect key="frame" x="25" y="229" width="550" height="29"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tost" translatesAutoresizingMaskIntoConstraints="NO" id="rMk-ts-BUb">
@@ -1630,7 +1676,7 @@
                                         <rect key="frame" x="25" y="487" width="550" height="29"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1482060513_chiken" translatesAutoresizingMaskIntoConstraints="NO" id="rzg-n2-d6C">
@@ -1644,7 +1690,7 @@
                                         <rect key="frame" x="25" y="745" width="550" height="29"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1482060055_joje" translatesAutoresizingMaskIntoConstraints="NO" id="pWV-us-xZA">
@@ -1662,7 +1708,7 @@
                                             <constraint firstAttribute="height" constant="29" id="rkh-EK-sc5"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1482059775_plate" translatesAutoresizingMaskIntoConstraints="NO" id="S4U-Q3-ceh">
@@ -1676,7 +1722,7 @@
                                         <rect key="frame" x="25" y="1269" width="550" height="33"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1482059542_kebab" translatesAutoresizingMaskIntoConstraints="NO" id="J1j-b7-WYI">
@@ -1690,7 +1736,7 @@
                                         <rect key="frame" x="25" y="1527" width="550" height="33"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1482059029_kabab" translatesAutoresizingMaskIntoConstraints="NO" id="DIT-da-gfT">
@@ -1704,7 +1750,7 @@
                                         <rect key="frame" x="25" y="1785" width="550" height="33"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1953,60 +1999,100 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AAg-4N-Bj1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3341" y="-977"/>
+            <point key="canvasLocation" x="-2213" y="-977"/>
         </scene>
         <!--Etelaieha-->
-        <scene sceneID="XBf-Du-5CI">
+        <scene sceneID="fVJ-NE-8gk">
             <objects>
-                <viewController id="WUH-gm-Jeg" customClass="Etelaieha" customModule="soheil_intro1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mzf-Di-nGq" customClass="Etelaieha" customModule="soheil_intro1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gSb-Ky-mRv"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZL2-3T-SvH"/>
+                        <viewControllerLayoutGuide type="top" id="sB8-iu-fW9"/>
+                        <viewControllerLayoutGuide type="bottom" id="bCi-Cl-ZIZ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="3Jr-x8-Lbe">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="830"/>
+                    <view key="view" contentMode="scaleToFill" id="f3t-rR-2AD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQt-DQ-K17">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1480419901_1" translatesAutoresizingMaskIntoConstraints="NO" id="GKd-6i-Aw7">
+                                <rect key="frame" x="0.0" y="94" width="600" height="210"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="LLq-87-Xkl"/>
+                                    <constraint firstAttribute="width" constant="600" id="1hy-UK-Apl"/>
+                                    <constraint firstAttribute="height" constant="210" id="akd-pf-RnA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  رستوران سنتی سهیل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oY-1B-pkf">
+                                <rect key="frame" x="0.0" y="312" width="600" height="32.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1480419901_1" translatesAutoresizingMaskIntoConstraints="NO" id="Hcl-Yf-5rP">
+                                <rect key="frame" x="0.0" y="353" width="600" height="210"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="31E-96-hYK"/>
+                                    <constraint firstAttribute="width" constant="600" id="l0a-6C-VJP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  رستوران سنتی سهیل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hL2-mJ-hvA">
+                                <rect key="frame" x="0.0" y="571" width="600" height="29"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="GgC-x7-RuU"/>
+                                    <constraint firstAttribute="width" constant="600" id="iB1-r1-wER"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgW-Pp-9aC">
+                                <rect key="frame" x="0.0" y="42" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="5VF-0e-K8z"/>
+                                    <constraint firstAttribute="height" constant="44" id="ECt-8L-g2k"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem id="KcR-vD-VAy">
-                                        <barButtonItem key="leftBarButtonItem" title="بازگشت" id="OdK-Zr-7qS">
+                                    <navigationItem id="xdY-df-6El">
+                                        <barButtonItem key="leftBarButtonItem" title="بازگشت" id="WaH-P1-RBJ">
                                             <connections>
-                                                <action selector="BackBarButtn:" destination="WUH-gm-Jeg" id="tIU-rh-avO"/>
+                                                <action selector="bazgasht:" destination="mzf-Di-nGq" id="xVY-lR-ZeO"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jv3-xD-X7m">
-                                <rect key="frame" x="0.0" y="64" width="600" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="cRQ-dV-mt7"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SQt-DQ-K17" firstAttribute="leading" secondItem="3Jr-x8-Lbe" secondAttribute="leading" id="8c1-PM-cUL"/>
-                            <constraint firstItem="ZL2-3T-SvH" firstAttribute="top" secondItem="Jv3-xD-X7m" secondAttribute="bottom" constant="516" id="BAu-ae-naS"/>
-                            <constraint firstItem="SQt-DQ-K17" firstAttribute="top" secondItem="3Jr-x8-Lbe" secondAttribute="top" constant="20" id="DL5-ba-9kI"/>
-                            <constraint firstItem="Jv3-xD-X7m" firstAttribute="leading" secondItem="3Jr-x8-Lbe" secondAttribute="leading" id="ncf-Zk-RVu"/>
-                            <constraint firstAttribute="trailing" secondItem="Jv3-xD-X7m" secondAttribute="trailing" id="oEc-HA-Cdq"/>
-                            <constraint firstAttribute="trailing" secondItem="SQt-DQ-K17" secondAttribute="trailing" id="v0M-A9-3yj"/>
-                            <constraint firstItem="Jv3-xD-X7m" firstAttribute="top" secondItem="SQt-DQ-K17" secondAttribute="bottom" id="vQm-cw-8lf"/>
+                            <constraint firstAttribute="trailing" secondItem="hL2-mJ-hvA" secondAttribute="trailing" id="0m1-Cc-a67"/>
+                            <constraint firstAttribute="trailing" secondItem="bgW-Pp-9aC" secondAttribute="trailing" id="18D-vt-vcJ"/>
+                            <constraint firstItem="hL2-mJ-hvA" firstAttribute="top" secondItem="Hcl-Yf-5rP" secondAttribute="bottom" constant="8" id="4jJ-nv-aYv"/>
+                            <constraint firstItem="hL2-mJ-hvA" firstAttribute="leading" secondItem="f3t-rR-2AD" secondAttribute="leading" id="8rF-bp-USa"/>
+                            <constraint firstItem="bgW-Pp-9aC" firstAttribute="leading" secondItem="f3t-rR-2AD" secondAttribute="leading" id="A0H-cQ-dy0"/>
+                            <constraint firstAttribute="trailing" secondItem="Hcl-Yf-5rP" secondAttribute="trailing" id="FaG-e5-UOG"/>
+                            <constraint firstItem="Hcl-Yf-5rP" firstAttribute="top" secondItem="5oY-1B-pkf" secondAttribute="bottom" constant="8.5" id="HY8-sa-0g6"/>
+                            <constraint firstItem="GKd-6i-Aw7" firstAttribute="leading" secondItem="f3t-rR-2AD" secondAttribute="leading" id="aNg-pv-t1b"/>
+                            <constraint firstItem="5oY-1B-pkf" firstAttribute="top" secondItem="GKd-6i-Aw7" secondAttribute="bottom" constant="8" id="bK2-9Q-5Mr"/>
+                            <constraint firstItem="bgW-Pp-9aC" firstAttribute="top" secondItem="sB8-iu-fW9" secondAttribute="bottom" constant="22" id="bK6-go-qnv"/>
+                            <constraint firstAttribute="trailing" secondItem="5oY-1B-pkf" secondAttribute="trailing" id="hA1-oQ-Xsp"/>
+                            <constraint firstItem="Hcl-Yf-5rP" firstAttribute="leading" secondItem="f3t-rR-2AD" secondAttribute="leading" id="jHM-1u-qtD"/>
+                            <constraint firstItem="bCi-Cl-ZIZ" firstAttribute="top" secondItem="GKd-6i-Aw7" secondAttribute="bottom" constant="296" id="oZu-gD-83a"/>
+                            <constraint firstItem="GKd-6i-Aw7" firstAttribute="top" secondItem="bgW-Pp-9aC" secondAttribute="bottom" constant="8" id="qn1-RF-KiK"/>
+                            <constraint firstItem="5oY-1B-pkf" firstAttribute="leading" secondItem="f3t-rR-2AD" secondAttribute="leading" id="wLZ-dG-8mb"/>
+                            <constraint firstItem="bCi-Cl-ZIZ" firstAttribute="top" secondItem="bgW-Pp-9aC" secondAttribute="bottom" constant="514" id="wPn-yI-TO2"/>
+                            <constraint firstAttribute="trailing" secondItem="GKd-6i-Aw7" secondAttribute="trailing" id="yo8-CT-MKh"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="aA9-u3-xcX"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <connections>
-                        <outlet property="asd" destination="OdK-Zr-7qS" id="fKM-j8-2vT"/>
+                        <outlet property="bazgasht" destination="WaH-P1-RBJ" id="HfO-LR-4yV"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c7z-y7-K5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ljE-Qf-MW7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3341" y="-2049"/>
+            <point key="canvasLocation" x="-2213" y="-1796"/>
         </scene>
         <!--Login-->
         <scene sceneID="nTx-a4-cW4">
@@ -2203,7 +2289,7 @@
                                             <constraint firstAttribute="width" constant="550" id="dQL-2a-iWy"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    ترشی خانگی کلم" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szN-c3-Or4">
@@ -2214,7 +2300,7 @@
                                             <constraint firstAttribute="height" constant="33" id="ezS-98-TyB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    سالاد ویژه ما" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJR-ku-LGt">
@@ -2224,7 +2310,7 @@
                                             <constraint firstAttribute="width" constant="550" id="e36-qV-ltb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -2269,8 +2355,8 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="rys-Lh-6K5"/>
                                 <exclude reference="i9L-b9-D3r"/>
+                                <exclude reference="rys-Lh-6K5"/>
                             </mask>
                         </variation>
                     </view>
@@ -2290,11 +2376,62 @@
                     <rect key="frame" x="0.0" y="0.0" width="550" height="33"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="DroidArabicNaskh" family="Droid Arabic Naskh" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </objects>
             <point key="canvasLocation" x="972" y="1820"/>
+        </scene>
+        <!--Login Register Left Menu-->
+        <scene sceneID="LuJ-yA-uP9">
+            <objects>
+                <viewController id="ap5-Am-cQj" customClass="LoginRegisterLeftMenu" customModule="soheil_intro1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u85-7C-Zbg"/>
+                        <viewControllerLayoutGuide type="bottom" id="E8g-vf-WCX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HqL-Zf-qsD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fZa-HM-mtT">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="kRC-j4-0CA">
+                                        <barButtonItem key="leftBarButtonItem" title="بازگشت" id="Ho0-xY-ttc">
+                                            <connections>
+                                                <action selector="backBarButton:" destination="ap5-Am-cQj" id="2t3-cv-H9R"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="1478606202_marvel-landing-screen-pattern-preview" translatesAutoresizingMaskIntoConstraints="NO" id="0d6-3X-rEP">
+                                <rect key="frame" x="0.0" y="72" width="600" height="528"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0d6-3X-rEP" firstAttribute="leading" secondItem="HqL-Zf-qsD" secondAttribute="leading" id="GdE-Tp-F4X"/>
+                            <constraint firstItem="fZa-HM-mtT" firstAttribute="leading" secondItem="HqL-Zf-qsD" secondAttribute="leading" id="Mum-qc-y7R"/>
+                            <constraint firstItem="E8g-vf-WCX" firstAttribute="top" secondItem="0d6-3X-rEP" secondAttribute="bottom" id="ONF-Lh-twM"/>
+                            <constraint firstAttribute="trailing" secondItem="0d6-3X-rEP" secondAttribute="trailing" id="Q7W-Np-b9E"/>
+                            <constraint firstItem="fZa-HM-mtT" firstAttribute="top" secondItem="u85-7C-Zbg" secondAttribute="bottom" constant="8" id="XA2-Ih-qH2"/>
+                            <constraint firstItem="0d6-3X-rEP" firstAttribute="top" secondItem="fZa-HM-mtT" secondAttribute="bottom" id="YiF-aZ-U1a"/>
+                            <constraint firstAttribute="trailing" secondItem="fZa-HM-mtT" secondAttribute="trailing" id="yEw-sa-msB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="pgF-e8-jwt"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="backBarButton" destination="Ho0-xY-ttc" id="HTA-pN-6xo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uI9-8t-YfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2970" y="-1796"/>
         </scene>
     </scenes>
     <resources>
