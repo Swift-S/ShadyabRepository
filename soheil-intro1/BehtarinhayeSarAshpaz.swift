@@ -1,15 +1,14 @@
 //
-//  LoginRegisterLeftMenu.swift
+//  BehtarinhayeSarAshpaz.swift
 //  soheil-intro1
 //
-//  Created by Amir Daliri on 1/21/17.
+//  Created by Amir Daliri on 1/22/17.
 //  Copyright © 2017 Amir Daliri. All rights reserved.
 //
 
 import UIKit
 
-class LoginRegisterLeftMenu: UIViewController {
-    @IBOutlet weak var backBarButton: UIBarButtonItem!
+class BehtarinhayeSarAshpaz: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +22,8 @@ class LoginRegisterLeftMenu: UIViewController {
     }
     
 
-    @IBAction func backBarButton(sender: AnyObject) {
+
+    @IBAction func biback(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     /*
