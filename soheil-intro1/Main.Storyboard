@@ -2596,7 +2596,7 @@
                                 </constraints>
                                 <items>
                                     <navigationItem id="KMZ-Sm-1XL">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="MpP-ln-nSA">
+                                        <barButtonItem key="leftBarButtonItem" title="بازگشت" id="MpP-ln-nSA">
                                             <connections>
                                                 <action selector="bazgashtBttn:" destination="grm-lg-V6I" id="egI-Fz-jSh"/>
                                             </connections>
